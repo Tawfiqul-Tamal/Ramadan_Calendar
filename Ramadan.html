@@ -8,9 +8,7 @@
 </head>
 <body>
 
-
 <canvas id="starsCanvas"></canvas>
-
 
 <div class="ramadan-moon">
     <div class="moon"></div>
@@ -27,15 +25,14 @@
     <h2>About This Project</h2>
     <p>
         Select a date to automatically see Sehri & Iftar timing according to the official Ramadan 2026 schedule in Dhaka. Track fasting days, countdown to Iftar, and visualize Ramadan progress.
+    </p>
 </section>
 
 <div class="container">
 
-  
     <div class="mode-toggle">
         <button onclick="toggleMode()">Toggle Dark / Light</button>
     </div>
-
 
     <div class="card progress-card">
         <h3>🌙 Ramadan Progress</h3>
@@ -46,13 +43,11 @@
         <p id="progressPrediction"></p>
     </div>
 
-   
     <div class="card countdown-card">
         <h3>⏳ Iftar Countdown</h3>
         <p id="countdown">Select a date to see countdown</p>
     </div>
 
-  
     <div class="card">
         <h3>Select Date</h3>
         <input type="date" id="date" onchange="updateTimes()">
@@ -60,7 +55,6 @@
         <p>Iftar: <span id="iftar">--:--</span></p>
     </div>
 
-    
     <div class="card">
         <h3>Ramadan Schedule</h3>
         <p class="roja">Roja Completed: <span id="rojaCount">0</span> Days</p>
