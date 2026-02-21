@@ -112,8 +112,10 @@ header {
     text-align: center; 
 }
 
+
 .light-mode .card {
-    background: #FFFFED;
+    background: #fff9dd; /* changed from #FFFFED */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 input, button {
@@ -149,7 +151,6 @@ th {
     background: var(--ramadan-gradient);
     color: white;
 }
-
 
 tr.selected {
     background-color: rgba(255, 215, 0, 0.5);
@@ -200,13 +201,6 @@ footer {
     color: #333;
 }
 
-
-
-
-
-
-
-
 /* Ramadan Quote Section */
 .quote-card {
     font-style: italic;
@@ -220,7 +214,6 @@ footer {
     padding: 10px;
 }
 
-/* Light mode adjustment */
 .light-mode .quote-card {
     color: #444;
 }
