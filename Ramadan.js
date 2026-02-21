@@ -1,51 +1,62 @@
+// ===============================
+// Ramadan Timings Data
+// ===============================
 const ramadanTimings = [
-{day:1, sehri:"05:12 AM", iftar:"05:57 PM", date:"2026-02-19"},
-{day:2, sehri:"05:11 AM", iftar:"05:58 PM", date:"2026-02-20"},
-{day:3, sehri:"05:11 AM", iftar:"05:58 PM", date:"2026-02-21"},
-{day:4, sehri:"05:10 AM", iftar:"05:59 PM", date:"2026-02-22"},
-{day:5, sehri:"05:09 AM", iftar:"05:59 PM", date:"2026-02-23"},
-{day:6, sehri:"05:08 AM", iftar:"06:00 PM", date:"2026-02-24"},
-{day:7, sehri:"05:08 AM", iftar:"06:00 PM", date:"2026-02-25"},
-{day:8, sehri:"05:07 AM", iftar:"06:01 PM", date:"2026-02-26"},
-{day:9, sehri:"05:06 AM", iftar:"06:01 PM", date:"2026-02-27"},
-{day:10, sehri:"05:05 AM", iftar:"06:02 PM", date:"2026-02-28"},
-{day:11, sehri:"05:04 AM", iftar:"06:02 PM", date:"2026-03-01"},
-{day:12, sehri:"05:04 AM", iftar:"06:03 PM", date:"2026-03-02"},
-{day:13, sehri:"05:03 AM", iftar:"06:03 PM", date:"2026-03-03"},
-{day:14, sehri:"05:02 AM", iftar:"06:04 PM", date:"2026-03-04"},
-{day:15, sehri:"05:01 AM", iftar:"06:04 PM", date:"2026-03-05"},
-{day:16, sehri:"05:00 AM", iftar:"06:04 PM", date:"2026-03-06"},
-{day:17, sehri:"04:59 AM", iftar:"06:05 PM", date:"2026-03-07"},
-{day:18, sehri:"04:58 AM", iftar:"06:05 PM", date:"2026-03-08"},
-{day:19, sehri:"04:57 AM", iftar:"06:06 PM", date:"2026-03-09"},
-{day:20, sehri:"04:56 AM", iftar:"06:06 PM", date:"2026-03-10"},
-{day:21, sehri:"04:56 AM", iftar:"06:07 PM", date:"2026-03-11"},
-{day:22, sehri:"04:55 AM", iftar:"06:07 PM", date:"2026-03-12"},
-{day:23, sehri:"04:54 AM", iftar:"06:08 PM", date:"2026-03-13"},
-{day:24, sehri:"04:53 AM", iftar:"06:08 PM", date:"2026-03-14"},
-{day:25, sehri:"04:52 AM", iftar:"06:08 PM", date:"2026-03-15"},
-{day:26, sehri:"04:51 AM", iftar:"06:09 PM", date:"2026-03-16"},
-{day:27, sehri:"04:50 AM", iftar:"06:09 PM", date:"2026-03-17"},
-{day:28, sehri:"04:49 AM", iftar:"06:10 PM", date:"2026-03-18"},
-{day:29, sehri:"04:48 AM", iftar:"06:10 PM", date:"2026-03-19"},
-{day:30, sehri:"04:47 AM", iftar:"06:10 PM", date:"2026-03-20"},
+  {day:1, sehri:"05:12 AM", iftar:"05:57 PM", date:"2026-02-19"},
+  {day:2, sehri:"05:11 AM", iftar:"05:58 PM", date:"2026-02-20"},
+  {day:3, sehri:"05:11 AM", iftar:"05:58 PM", date:"2026-02-21"},
+  {day:4, sehri:"05:10 AM", iftar:"05:59 PM", date:"2026-02-22"},
+  {day:5, sehri:"05:09 AM", iftar:"05:59 PM", date:"2026-02-23"},
+  {day:6, sehri:"05:08 AM", iftar:"06:00 PM", date:"2026-02-24"},
+  {day:7, sehri:"05:08 AM", iftar:"06:00 PM", date:"2026-02-25"},
+  {day:8, sehri:"05:07 AM", iftar:"06:01 PM", date:"2026-02-26"},
+  {day:9, sehri:"05:06 AM", iftar:"06:01 PM", date:"2026-02-27"},
+  {day:10, sehri:"05:05 AM", iftar:"06:02 PM", date:"2026-02-28"},
+  {day:11, sehri:"05:04 AM", iftar:"06:02 PM", date:"2026-03-01"},
+  {day:12, sehri:"05:04 AM", iftar:"06:03 PM", date:"2026-03-02"},
+  {day:13, sehri:"05:03 AM", iftar:"06:03 PM", date:"2026-03-03"},
+  {day:14, sehri:"05:02 AM", iftar:"06:04 PM", date:"2026-03-04"},
+  {day:15, sehri:"05:01 AM", iftar:"06:04 PM", date:"2026-03-05"},
+  {day:16, sehri:"05:00 AM", iftar:"06:04 PM", date:"2026-03-06"},
+  {day:17, sehri:"04:59 AM", iftar:"06:05 PM", date:"2026-03-07"},
+  {day:18, sehri:"04:58 AM", iftar:"06:05 PM", date:"2026-03-08"},
+  {day:19, sehri:"04:57 AM", iftar:"06:06 PM", date:"2026-03-09"},
+  {day:20, sehri:"04:56 AM", iftar:"06:06 PM", date:"2026-03-10"},
+  {day:21, sehri:"04:56 AM", iftar:"06:07 PM", date:"2026-03-11"},
+  {day:22, sehri:"04:55 AM", iftar:"06:07 PM", date:"2026-03-12"},
+  {day:23, sehri:"04:54 AM", iftar:"06:08 PM", date:"2026-03-13"},
+  {day:24, sehri:"04:53 AM", iftar:"06:08 PM", date:"2026-03-14"},
+  {day:25, sehri:"04:52 AM", iftar:"06:08 PM", date:"2026-03-15"},
+  {day:26, sehri:"04:51 AM", iftar:"06:09 PM", date:"2026-03-16"},
+  {day:27, sehri:"04:50 AM", iftar:"06:09 PM", date:"2026-03-17"},
+  {day:28, sehri:"04:49 AM", iftar:"06:10 PM", date:"2026-03-18"},
+  {day:29, sehri:"04:48 AM", iftar:"06:10 PM", date:"2026-03-19"},
+  {day:30, sehri:"04:47 AM", iftar:"06:10 PM", date:"2026-03-20"},
 ];
 
 const tableBody = document.getElementById("tableBody");
-
-ramadanTimings.forEach(item => {
-    tableBody.innerHTML += `
-        <tr>
-            <td>${item.day}</td>
-            <td>${item.date}</td>
-            <td>${item.sehri}</td>
-            <td>${item.iftar}</td>
-        </tr>
-    `;
-});
-
 const totalDays = 30;
 
+// ===============================
+// Populate Table
+// ===============================
+function fillTable() {
+    tableBody.innerHTML = "";
+    ramadanTimings.forEach(item => {
+        tableBody.innerHTML += `
+            <tr>
+                <td>${item.day}</td>
+                <td>${item.date}</td>
+                <td>${item.sehri}</td>
+                <td>${item.iftar}</td>
+            </tr>
+        `;
+    });
+}
+
+// ===============================
+// Update Sehri, Iftar, Progress, Countdown
+// ===============================
 function updateProgress(selectedDay = 0){
     const percentage = (selectedDay / totalDays) * 100;
     document.getElementById("progressFill").style.width = percentage + "%";
@@ -54,7 +65,7 @@ function updateProgress(selectedDay = 0){
     document.getElementById("progressPrediction").innerText = `Predicted completion: ${percentage.toFixed(1)}%`;
 }
 
-// Highlight selected row
+// Highlight selected row in table
 function highlightSelectedRow(selectedDate){
     document.querySelectorAll("#tableBody tr").forEach(row => row.classList.remove("selected"));
     document.querySelectorAll("#tableBody tr").forEach(row => {
@@ -64,6 +75,7 @@ function highlightSelectedRow(selectedDate){
     });
 }
 
+// Update Sehri/Iftar times when date changes
 function updateTimes(){
     const selectedDate = document.getElementById("date").value;
     const dayInfo = ramadanTimings.find(d => d.date === selectedDate);
@@ -82,20 +94,38 @@ function updateTimes(){
     }
 }
 
-
+// ===============================
+// Dhaka Time Functions
+// ===============================
 function getDhakaTime() {
     return new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Dhaka" }));
 }
 
-function selectTodayDate(){
-    const today = getDhakaTime().toISOString().split('T')[0];
-    document.getElementById("date").value = today;
-    updateTimes();
+function getDhakaDateString() {
+    const now = getDhakaTime();
+    const yyyy = now.getFullYear();
+    const mm = String(now.getMonth()+1).padStart(2,'0');
+    const dd = String(now.getDate()).padStart(2,'0');
+    return `${yyyy}-${mm}-${dd}`;
 }
 
-window.addEventListener("load", () => selectTodayDate());
+// ===============================
+// Auto-Select Today
+// ===============================
+function selectTodayDate(){
+    const todayStr = getDhakaDateString();
+    const todayExists = ramadanTimings.some(d => d.date === todayStr);
 
+    if(todayExists){
+        const dateInput = document.getElementById("date");
+        dateInput.value = todayStr;
+        updateTimes();
+    }
+}
 
+// ===============================
+// Clock Display
+// ===============================
 function updateClock(){
     const now = getDhakaTime();
     let hours = now.getHours();
@@ -109,13 +139,15 @@ function updateClock(){
 setInterval(updateClock, 1000);
 updateClock();
 
-
+// ===============================
+// Countdown to Iftar
+// ===============================
 let countdownInterval;
 function startCountdown(iftarTime){
     clearInterval(countdownInterval);
     countdownInterval = setInterval(()=>{
         const now = getDhakaTime();
-        const today = now.toISOString().split('T')[0];
+        const today = getDhakaDateString();
         const [time, modifier] = iftarTime.split(" ");
         let [hours, minutes] = time.split(":").map(Number);
         if(modifier === "PM" && hours !== 12) hours += 12;
@@ -134,7 +166,9 @@ function startCountdown(iftarTime){
     }, 1000);
 }
 
-
+// ===============================
+// Star Canvas
+// ===============================
 const canvas = document.getElementById('starsCanvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
@@ -159,17 +193,16 @@ function drawStars(){
 }
 setInterval(drawStars, 50);
 
-
+// ===============================
+// Light/Dark Mode Toggle
+// ===============================
 function toggleMode(){
     document.body.classList.toggle("light-mode");
 }
 
-
-
 // ===============================
-// Ramadan Quotes Rotation Feature
+// Ramadan Quotes Rotation
 // ===============================
-
 const ramadanQuotes = [
     "“Fasting is a shield; so when one of you is fasting, he should avoid obscene speech and ignorant behavior.” (Bukhari & Muslim)",
     "“Whoever fasts Ramadan out of faith and hope for reward, his previous sins will be forgiven.” (Bukhari & Muslim)",
@@ -179,19 +212,22 @@ const ramadanQuotes = [
     "“The best charity is that given in Ramadan.” (Tirmidhi)",
     "“There are in Ramadan nights better than a thousand months.” (Qur'an 97:3)"
 ];
-
 let quoteIndex = 0;
 const quoteElement = document.getElementById("ramadanQuote");
-
 function changeQuote() {
     quoteElement.style.opacity = 0;
-
     setTimeout(() => {
         quoteIndex = (quoteIndex + 1) % ramadanQuotes.length;
         quoteElement.innerText = ramadanQuotes[quoteIndex];
         quoteElement.style.opacity = 1;
     }, 500);
 }
-
-// Change quote every 20 seconds
 setInterval(changeQuote, 20000);
+
+// ===============================
+// On Window Load
+// ===============================
+window.addEventListener("load", () => {
+    fillTable();
+    selectTodayDate();
+});
